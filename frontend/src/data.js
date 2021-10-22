@@ -2,7 +2,7 @@ const data = {
     products:[
         {
             _id:'1',
-            name:'DW Classic St Mawes',
+            name:'DW CLASSIC ST MAWES',
             category: 'Women',
             image:'/images/product1.jpg',
             price:150,

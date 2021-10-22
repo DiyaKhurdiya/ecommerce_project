@@ -1,14 +1,21 @@
 {
   "name": "ecommerce_project",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^5.1.3"
-  }
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n1shtha/ecommerce_project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/n1shtha/ecommerce_project/issues"
+  },
+  "homepage": "https://github.com/n1shtha/ecommerce_project#readme",
+  "description": ""
 }

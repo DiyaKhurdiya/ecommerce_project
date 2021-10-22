@@ -5,13 +5,14 @@ function App() {
   return (
     <div className="grid-container">
             <header>
-                <div className="row">
+                <div className="brand">
                     <a className="brand" href="/">TENET</a>
                 </div>
-                <div className="row">
-                    <a href="/products">All Watches</a>
-                    <a className = "row right" href="/cart">Cart</a>
-                    <a className = "row right" href="/signin">Sign In</a>
+                <div className="navigation">
+                    <a className="category" href="/products">WATCHES</a>
+                    <a className="category" href="/products">JEWELRY</a>
+                    <a className="category" href="/products">BESTSELLERS</a>
+                    <a className="category" href="/products">TODAY'S DEALS</a>
                 </div>
             </header>
             <main>
