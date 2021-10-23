@@ -83,7 +83,17 @@ a {
   text-decoration: none;
 }
 
-/* For Headers */
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+li {
+  margin-top: 1rem;
+}
+
+/* Headers */
 
 header a {
   color: #ffffff;
@@ -124,6 +134,18 @@ a.category {
 
 .row.left {
  justify-content: left;
+}
+
+.row.top {
+  align-items: flex-start;
+}
+
+.col-1{
+  flex: 1 1 25rem;
+}
+
+.col-2{
+  flex: 2 1 50rem;
 }
 
 /* Images */
