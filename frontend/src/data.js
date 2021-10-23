@@ -9,7 +9,7 @@ const data = {
             brand:'Daniel Wellington',
             rating:5,
             numReviews: 10,
-            description: 'High quality product.',
+            description:'High quality product.',
         },
         {
             _id:'2',
@@ -19,8 +19,8 @@ const data = {
             price:150,
             brand:'Daniel Wellington',
             rating:5,
-            numReviews: 10,
-            description: 'High quality product.',
+            numReviews:10,
+            description:'High quality product.',
         },
         {
             _id:'3',
@@ -30,8 +30,8 @@ const data = {
             price:150,
             brand:'Daniel Wellington',
             rating:5,
-            numReviews: 10,
-            description: 'High quality product.',
+            numReviews:10,
+            description:'High quality product.',
         },
         {
             _id:'4',
@@ -41,8 +41,8 @@ const data = {
             price:150,
             brand:'Daniel Wellington',
             rating:5,
-            numReviews: 10,
-            description: 'High quality product.',
+            numReviews:10,
+            description:'High quality product.',
         },
         {
             _id:'5',
@@ -52,8 +52,8 @@ const data = {
             price:150,
             brand:'Daniel Wellington',
             rating:5,
-            numReviews: 10,
-            description: 'High quality product.'
+            numReviews:10,
+            description:'High quality product.'
         },
         {
             _id:'6',
@@ -63,8 +63,8 @@ const data = {
             price:150,
             brand:'Daniel Wellington',
             rating:5,
-            numReviews: 10,
-            description: 'High quality product.',
+            numReviews:10,
+            description:'High quality product.',
         },
         {
             _id:'7',
@@ -74,8 +74,8 @@ const data = {
             price:150,
             brand:'Daniel Wellington',
             rating:5,
-            numReviews: 10,
-            description: 'High quality product.',
+            numReviews:10,
+            description:'High quality product.',
         },
     ],
 };
