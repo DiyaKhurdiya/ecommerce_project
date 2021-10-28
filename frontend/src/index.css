@@ -103,7 +103,7 @@ button {
   -moz-osx-font-smoothing: grayscale;
 }
 button {
-  background-color: #f8f8f8;
+  background-color: #fcfcfc;
   cursor: pointer;
 }
 input:hover,
@@ -121,7 +121,7 @@ button.block {
 /* Headers */
 
 header a {
-  color: #ffffff;
+  color: #000000;
   padding: 1rem;
   }
 
@@ -133,6 +133,14 @@ a.brand {
   color:#ffffff;
   font-size: 4rem;
   font-family: 'Italiana', serif;
+}
+.badge{
+  background-color: hsl(216, 100%, 32%);
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 0.2rem 0.7rem;
+  font-size: 1.4rem;
+  margin-left: 0.2rem;
 }
 
 a.category {
