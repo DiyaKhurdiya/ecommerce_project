@@ -1,5 +1,3 @@
-import Product from './components/Product';
-import data from './data';
 import {BrowserRouter, Route} from 'react-router-dom';
 import ProductScreen from './screens/ProductScreen';
 import HomeScreen from './screens/HomeScreen';
