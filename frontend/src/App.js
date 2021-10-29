@@ -2,6 +2,7 @@ import {BrowserRouter, Route} from 'react-router-dom';
 import ProductScreen from './screens/ProductScreen';
 import HomeScreen from './screens/HomeScreen';
 import CartScreen from './screens/CartScreen';
+import SearchBox from './components/SearchBox';
 
 function App() {
   return (
@@ -16,6 +17,18 @@ function App() {
                     <a className="category" href="/products">JEWELRY</a>
                     <a className="category" href="/products">BESTSELLERS</a>
                     <a className="category" href="/products">TODAY'S DEALS</a>
+                    <div>
+                      <a className="side" href="/cart">Cart</a>
+                      <a className="side" href="/signin">Sign In</a>                       
+                    </div>
+                </div>
+                <br></br>
+                <div>
+                    <Route
+                      render={({ history }) => (
+                        <SearchBox history={history}></SearchBox>
+                      )}
+                    ></Route>
                 </div>
             </header>
             <main>
