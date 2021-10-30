@@ -67,7 +67,7 @@ footer {
 /* Common styles */
 
 h1 {
-  font-size: 1.8rem;
+  font-size: 3rem;
   font-family: 'Italiana', serif;
   padding: 1rem 0;
 }
@@ -180,11 +180,18 @@ a.category {
 .col-2{
   flex: 2 1 50rem;
 }
+.min-30 {
+  min-width: 30rem;
+}
 
 /* Images */
 
 img {
  border-radius: 0.5rem;
+}
+img.small{
+  max-width: 5rem;
+  width: 100%;
 }
 
 img.medium {
