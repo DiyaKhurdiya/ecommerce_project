@@ -1,7 +1,21 @@
+import bcrypt from 'bcryptjs';
 const data = {
+    users: [
+        {
+            name: 'Shalini',
+            email: 'admin@example.com',
+            password: bcrypt.hashSync('1234', 8),
+            isAdmin: true,
+        },
+        {
+            name: 'Jerry',
+            email: 'user@example.com',
+            password: bcrypt.hashSync('1234', 8),
+            isAdmin: false,
+        }
+    ],
     products:[
         {
-            _id:'1',
             name:'DW CLASSIC ST MAWES',
             category: 'Women',
             image:'/images/product1.jpg',
@@ -12,8 +26,7 @@ const data = {
             numReviews:10,
             description:'High quality product.',
         },
-        {
-            _id:'2',
+        {       
             name:'DW Classic St Mawes',
             category: 'Women',
             image:'/images/product2.jpeg',
@@ -24,8 +37,7 @@ const data = {
             numReviews:20,
             description:'High quality product.',
         },
-        {
-            _id:'3',
+        {    
             name:'DW Classic St Mawes',
             category: 'Women',
             image:'/images/product3.jpg',
@@ -36,8 +48,7 @@ const data = {
             numReviews:11,
             description:'High quality product.',
         },
-        {
-            _id:'4',
+        {            
             name:'DW Classic St Mawes',
             category: 'Men',
             image:'/images/product4.jpg',
@@ -48,8 +59,7 @@ const data = {
             numReviews:16,
             description:'High quality product.',
         },
-        {
-            _id:'5',
+        {          
             name:'DW Classic St Mawes',
             category: 'Men',
             image:'/images/product5.jpg',
@@ -60,8 +70,7 @@ const data = {
             numReviews:14,
             description:'High quality product.'
         },
-        {
-            _id:'6',
+        {    
             name:'DW Classic St Mawes',
             category: 'Men',
             image:'/images/product6.jpg',
@@ -73,7 +82,7 @@ const data = {
             description:'High quality product.',
         },
         {
-            _id:'7',
+            
             name:'DW Classic St Mawes',
             category: 'Women',
             image:'/images/product7.jpg',
