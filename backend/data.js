@@ -14,7 +14,7 @@ const data = {
         },
         {
             _id:'2',
-            name:'DW Classic St Mawes',
+            name:'DW PETITE MELROSE',
             category: 'Women',
             image:'/images/product2.jpeg',
             price:120,
@@ -26,7 +26,7 @@ const data = {
         },
         {
             _id:'3',
-            name:'DW Classic St Mawes',
+            name:'DW PETITE UNITONE',
             category: 'Women',
             image:'/images/product3.jpg',
             price:110,
@@ -38,7 +38,7 @@ const data = {
         },
         {
             _id:'4',
-            name:'DW Classic St Mawes',
+            name:'DW ICONIC LINK ARCTIC',
             category: 'Men',
             image:'/images/product4.jpg',
             price:190,
@@ -50,7 +50,7 @@ const data = {
         },
         {
             _id:'5',
-            name:'DW Classic St Mawes',
+            name:'DW ICONIC LINK UNITONE',
             category: 'Men',
             image:'/images/product5.jpg',
             price:155,
@@ -62,7 +62,7 @@ const data = {
         },
         {
             _id:'6',
-            name:'DW Classic St Mawes',
+            name:'DW ICONIC LINK AMBER',
             category: 'Men',
             image:'/images/product6.jpg',
             price:100,
@@ -74,7 +74,7 @@ const data = {
         },
         {
             _id:'7',
-            name:'DW Classic St Mawes',
+            name:'DW PRESSED MELROSE',
             category: 'Women',
             image:'/images/product7.jpg',
             price:130,
