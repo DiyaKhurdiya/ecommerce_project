@@ -140,6 +140,7 @@ a.brand {
   font-size: 4rem;
   font-family: 'Italiana', serif;
 }
+
 .badge{
   background-color: hsl(216, 100%, 32%);
   color: #ffffff;
@@ -193,6 +194,7 @@ a.side {
 .col-2{
   flex: 2 1 50rem;
 }
+
 .min-30 {
   min-width: 30rem;
 }
@@ -202,9 +204,11 @@ a.side {
 img {
  border-radius: 0.5rem;
 }
+
 img.small{
-  max-width: 5rem;
-  width: 100%;
+  width: 29rem;
+  height: 29rem;
+  object-fit: contain;
 }
 
 img.medium {
@@ -215,10 +219,15 @@ img.medium {
 /* Cards */
 
 .card {
- border: 0.1rem #d9d2cc solid;
- background-color: #f2f1ef; 
+ background-color: #ffffff; 
  border-radius: 0.5rem;
  margin: 1rem;
+ max-width: 29rem;
+}
+
+.card:hover {
+  transition: all .4s ease;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card-body {
@@ -281,4 +290,15 @@ img.medium {
 
 .active {
   font-weight: bold;
+}
+
+.autocomplete {
+  width: 100%;
+  border: 1px solid grey;
+  box-shadow: 0 0 0 1px rgpa(0, 0, 0, .1), 0 2px 4px 1px rgba(0, 0, 0, .18);
+}
+
+.autocomplete input {
+  width: 100%;
+  border: none; 
 }

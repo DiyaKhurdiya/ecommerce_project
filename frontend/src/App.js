@@ -4,6 +4,8 @@ import ProductScreen from './screens/ProductScreen';
 import HomeScreen from './screens/HomeScreen';
 import CartScreen from './screens/CartScreen';
 import SearchBox from './components/SearchBox';
+import AutoCompleteText from './components/AutocompleteSearchBox';
+
 
 function App() {
   const cart = useSelector((state) => state.cart);
@@ -15,7 +17,6 @@ function App() {
                 <div className="brand">
                     <Link className="brand" to="/">TENET</Link>
                 </div>
-                
                 <div className="navigation">
                     <Link className="category" to="/products">WATCHES</Link>
                     <Link className="category" to="/products">JEWELRY</Link>
@@ -32,11 +33,7 @@ function App() {
                 </div>
                 <br></br>
                 <div>
-                    <Route
-                      render={({ history }) => (
-                        <SearchBox history={history}></SearchBox>
-                      )}
-                    ></Route>
+                    <AutoCompleteText />
                 </div>
             </header>
             <main>
